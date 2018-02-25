@@ -1,0 +1,9 @@
+[package]
+name = "learn_rust_diesel"
+version = "0.0.0"
+license = "BSD-2-Clause"
+authors = ["Sudaraka Wijesinghe <sudaraka@sudaraka.org>"]
+
+[dependencies]
+diesel = { version = "1.*", features = [ "sqlite" ] }
+dotenv = "0.11.0"
