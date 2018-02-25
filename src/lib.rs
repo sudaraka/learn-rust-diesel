@@ -2,6 +2,8 @@
 extern crate diesel;
 extern crate dotenv;
 
+pub mod models;
+
 use diesel::prelude::*;
 use dotenv::dotenv;
 use std::env;
